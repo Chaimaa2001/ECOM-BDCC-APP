@@ -41,3 +41,9 @@
 <img src="./IMAGES/img_40.png">
 <img src="./IMAGES/img_41.png">
 <img src="./IMAGES/img_42.png">
+<img src="./IMAGES/img_43.png">
+<img src="./IMAGES/img_44.png">
+<img src="./IMAGES/img_45.png">
+<h3>L'ajout de la gateway et discovery-service</h3>
+<img src="./IMAGES/img_46.png">
+

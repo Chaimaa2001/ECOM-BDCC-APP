@@ -30,7 +30,7 @@ export class OrderDetailsComponent implements OnInit{
 
   }
   ngOnInit(): void {
-    this.http.get("http://localhost:8088/api/orders/"+this.orderId).subscribe({
+    this.http.get("http://localhost:9999/ORDER-SERVICE/api/orders/"+this.orderId).subscribe({
         next: order => {
           this.orderDetails = order
         },

@@ -12,7 +12,7 @@ export class OrdersComponent implements OnInit{
   constructor(private http:HttpClient,private router:Router) {
   }
   ngOnInit(): void {
-    this.http.get("http://localhost:8088/api/orders").subscribe({
+    this.http.get("http://localhost:9999/ORDER-SERVICE/api/orders").subscribe({
       next:orders=>{
         this.orders=orders;
       },

@@ -12,7 +12,7 @@ export class ProductsComponent implements OnInit{
   constructor(private http : HttpClient) {
   }
   ngOnInit() {
-    this.http.get("http://localhost:8087/api/products")
+    this.http.get("http://localhost:9999/INVENTORY-SERVICE/api/products")
       .subscribe({
         next : data => {
           this.products = data;
